@@ -37,11 +37,42 @@ function measureHit(curMeasure) { //self explanitory
 }
 
 //freeplay stuff
-function onSelect(event) {
+function onSelect(event) { //called when you select a song
   /*
-    event.
+    event.song - Song name that is about to be played
+    event.difficulty - Difficulty name
+    event.opponentMode - Whenever opponent mode is enabled or not.
+    event.coopMode - Whenever coop mode is enabled.
 */
 }
+
+function onChangeDiff(event) { //called when you change the difficulty
+  /*
+    event.oldValue - the value before you changed it
+    event.value - the value after you changed it
+    event.change - the amount it goes up and down
+    event.playMenuSFX - play the sound
+  */
+}
+
+function onChangeCoopMode(event) { //called when you change the coop mode
+  /*
+    event.oldValue - the value before you changed it
+    event.value - the value after you changed it
+    event.change - the amount it goes up and down
+    event.playMenuSFX - play the sound
+  */
+}
+
+function onChangeSelection(event) { //called when you change the song selection
+  /*
+    event.oldValue - the value before you changed it
+    event.value - the value after you changed it
+    event.change - the amount it goes up and down
+    event.playMenuSFX - play the sound
+  */
+}
+
 
 //meta stuff
 function onFocus() { //called when the game is clicked back onto
