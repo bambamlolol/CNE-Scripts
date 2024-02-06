@@ -1,3 +1,5 @@
+//for every song, put it in the songs folder
+//for a specific song, put it in songs/yoursong/scripts/scriptName.hx
 function create() { //called on first frame, some things may not be loaded
 
 }
@@ -11,6 +13,32 @@ function update(elapsed) {
 }
 
 function postUpdate(elapsed) {
+
+}
+
+function onInputUpdate(event) {
+  /*
+    event.pressed
+	 * Array containing whenever a specific control is pressed or not.
+	 * For example, `pressed[0]` will return whenever the left strum was pressed.
+    event.justPressed
+	 * Array containing whenever a specific control was pressed (not hold) this frame or not.
+	 * For example, `justPressed[0]` will return whenever the left strum was just pressed.
+    event.justReleased
+	 * Array containing whenever a specific control was released this frame or not.
+	 * For example, `justReleased[0]` will return whenever the left strum was just released.
+    event.strumLine
+	 * Strumline which input is being processed.
+    event.strumLineID
+	 * ID of the Strumline.
+  */
+}
+
+function onPostInputUpdate() {
+
+}
+
+function onStrumCreation(event) {
 
 }
 
