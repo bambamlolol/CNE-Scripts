@@ -1,4 +1,3 @@
-//basically any script that doesnt have custom events, basically: BetaWarningState, ModSwitchMenu, GitarooPause, basically any script that extends MusicBeatState
 //goes in data/states
 function create() { //called on the state start, before most stuff has loaded
 
