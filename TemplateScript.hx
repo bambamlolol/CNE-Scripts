@@ -112,7 +112,8 @@ function onRatingUpdate(e) { //called when the ratings change
 
 function onEvent(e) {
   //called when you load an event, simple enough
-  //e.name;
+  //e.name; - name of the event called
+  //e.params - the params used, an array
 }
 
 function onGameOver(e) {
